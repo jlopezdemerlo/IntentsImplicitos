@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/IntentsImplicitos.iml" filepath="$PROJECT_DIR$/.idea/IntentsImplicitos.iml" />
-      <module fileurl="file://$PROJECT_DIR$/IntentsImplicitos.iml" filepath="$PROJECT_DIR$/IntentsImplicitos.iml" />
+      <module fileurl="file://D:\JoseA\Documents\Instituto\Moviles\Practicas\P5\IntentsImplicitos2018\.idea\IntentsImplicitos.iml" filepath="D:\JoseA\Documents\Instituto\Moviles\Practicas\P5\IntentsImplicitos2018\.idea\IntentsImplicitos.iml" />
+      <module fileurl="file://D:\JoseA\Documents\Instituto\Moviles\Practicas\P5\IntentsImplicitos2018\IntentsImplicitos.iml" filepath="D:\JoseA\Documents\Instituto\Moviles\Practicas\P5\IntentsImplicitos2018\IntentsImplicitos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IntentsImplicitos2018.iml" filepath="$PROJECT_DIR$/.idea/IntentsImplicitos2018.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\JoseA\Documents\Instituto\Moviles\Practicas\P5\IntentsImplicitos2018\app\app.iml" filepath="D:\JoseA\Documents\Instituto\Moviles\Practicas\P5\IntentsImplicitos2018\app\app.iml" />
     </modules>
   </component>
 </project>
