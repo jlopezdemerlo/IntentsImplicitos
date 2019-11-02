@@ -2,9 +2,12 @@ package net.iessochoa.joseantoniolopez.intentsimplicitos;
 
 import android.os.Bundle;
 import android.provider.CallLog;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
+
 import android.widget.LinearLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.snackbar.Snackbar;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
