@@ -3,26 +3,24 @@ package net.iessochoa.joseantoniolopez.intentsimplicitos;
 import android.os.Bundle;
 import android.provider.CallLog;
 
+import android.view.View;
 import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.snackbar.Snackbar;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 public class PermisosActivity extends AppCompatActivity {
 
-    @BindView(R.id.lytPrincipal)
+
     LinearLayout lytPrincipal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_permisos);
-        ButterKnife.bind(this);
+        lytPrincipal=findViewById(R.id.lytPrincipal);
 
     }
 
@@ -32,8 +30,8 @@ public class PermisosActivity extends AppCompatActivity {
                 Snackbar.LENGTH_SHORT).show();
     }
 
-    @OnClick(R.id.btnBorrarLlamadas)
-    public void onClick() {
+
+    public void onClick(View v) {
         borrarLlamada();
     }
 }

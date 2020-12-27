@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/IntentsImplicitos2018.iml" filepath="$PROJECT_DIR$/IntentsImplicitos2018.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P5IntentsImplicitos2018.iml" filepath="$PROJECT_DIR$/P5IntentsImplicitos2018.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/P5IntentsImplicitos2018.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/P5IntentsImplicitos2018.app.iml" />
     </modules>
   </component>
 </project>

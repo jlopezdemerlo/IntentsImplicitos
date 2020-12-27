@@ -5,28 +5,27 @@ import android.net.Uri;
 import android.os.Bundle;
 
 import android.view.View;
+import android.view.View.OnClickListener;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity  {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ButterKnife.bind(this);
+
     }
 
-    @OnClick({R.id.btnWeb, R.id.btnTelefono, R.id.btnMaps, R.id.btnFoto, R.id.btnCorreo,R.id.btnPermisos})
+    //@OnClick({R.id.btnWeb, R.id.btnTelefono, R.id.btnMaps, R.id.btnFoto, R.id.btnCorreo,R.id.btnPermisos})
     public void onClick(View view) {
         Intent intent;
         switch (view.getId()) {
             case R.id.btnWeb:
                 intent = new Intent(Intent.ACTION_VIEW,
-                        Uri.parse("http://iesseveroochoa.edu.gva.es/"));
+                        Uri.parse("https://www.gva.es/"));
                 startActivity(intent);
                 break;
             case R.id.btnTelefono:

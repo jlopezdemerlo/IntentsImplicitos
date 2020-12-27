@@ -12,38 +12,44 @@
     tools:context="net.iessochoa.joseantoniolopez.intentsimplicitos.MainActivity">
 
     <Button
-        android:text="Abrir url"
+        android:id="@+id/btnWeb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnWeb" />
+        android:onClick="onClick"
+        android:text="Abrir url" />
 
     <Button
         android:text="Llamar por telefono"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="onClick"
         android:id="@+id/btnTelefono" />
 
     <Button
         android:text="Google Maps"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="onClick"
         android:id="@+id/btnMaps" />
 
     <Button
         android:text="Abrir Camara"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="onClick"
         android:id="@+id/btnFoto" />
 
     <Button
         android:text="Mandar Correo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="onClick"
         android:id="@+id/btnCorreo" />
 
     <Button
         android:text="Permisos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="onClick"
         android:id="@+id/btnPermisos" />
 </LinearLayout>
